@@ -1,0 +1,29 @@
+<resources>
+    <style name="agent_card_menu" >
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">116dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:backgroundTint">@color/agent_menu_bg</item>
+     <!--   <item name="android:foreground">@drawable/card_view_bg</item>-->
+    </style>
+    <!--<item name="android:backgroundTint">@color/agent_menu_bg</item>&ndash;&gt;-->
+
+    <style name="agent_card_menu_text" >
+        <item name="android:layout_width">83dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/agent_menu_text</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="agent_card_menu_icon" >
+        <item name="android:layout_width">57dp</item>
+        <item name="android:layout_height">57dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+</resources>
